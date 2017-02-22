@@ -15,6 +15,8 @@ class BitwiseConstantCalculatorTest extends TestCase
     /**
      * Test the calculation.
      *
+     * @param string $string
+     * @param int    $integer
      * @dataProvider parsables
      */
     public function testCalculation($string, $integer)
