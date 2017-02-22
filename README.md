@@ -9,6 +9,8 @@ composer require gisostallenberg/bitwise-constant-calculator
 ## Usage examples
 ```php
 
+use GisoStallenberg\BitwiseConstantCalculator\BitwiseConstantCalculator;
+
 $result = BitwiseConstantCalculator::create()
             ->calculate("E_ALL | E_STRICT");
 ($result === E_ALL | E_STRICT); // true
